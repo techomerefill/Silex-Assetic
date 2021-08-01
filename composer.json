@@ -1,8 +1,8 @@
 {
-    "name": "mheap/silex-assetic",
-    "description": "Assetic extension for Silex",
+    "name": "techomerefill/silex-assetic",
+    "description": "Assetic extension for Silex - Forked",
     "keywords": ["silex", "assetic"],
-    "homepage": "https://github.com/mheap/Silex-Assetic",
+    "homepage": "https://github.com/techomerefill/silex-assetic",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -19,16 +19,16 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "kriswallsmith/assetic": "~1.0",
-        "symfony/finder": "~2.4"
+        "kriswallsmith/assetic": "^1.0",
+        "symfony/finder": "^2.4"
     },
     "require-dev": {
-        "silex/silex": "~2.0@dev",
-        "twig/twig": "~1.2",
-        "phpunit/phpunit": "~3.7.10"
+        "silex/silex": "^2.0",
+        "twig/twig": "^1.2",
+        "phpunit/phpunit": ">=3.7.10"
     },
     "suggest": {
-        "twig/twig": "~1.2"
+        "twig/twig": "^1.2"
     },
     "autoload": {
         "psr-0": {
